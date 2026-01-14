@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+outputs/
+assets/audio/
+assets/images/
+assets/backgrounds/
+assets/videos/
+
+!assets/**/.gitkeep
+!outputs/**/.gitkeep
