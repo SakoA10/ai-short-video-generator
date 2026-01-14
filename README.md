@@ -37,7 +37,7 @@ Each run produces **one complete video** with:
 
 ## n8n Workflow
 
-![n8n Workflow](screenshots/screenshot.png)
+![n8n Workflow](screenshots/Screenshot.png)
 
 ---
 
