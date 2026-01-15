@@ -129,9 +129,8 @@ def _write_ass_sentence_by_sentence(
     dur = _get_audio_duration(audio_path)
     times = _allocate_timings(dur, sentences)
 
-    back = "&H33000000"
-    outline = 3
-    shadow = 1
+    outline = 2
+    shadow = 0
 
     header = f"""[Script Info]
 ScriptType: v4.00+
@@ -140,7 +139,7 @@ PlayResY: {H}
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,{fontsize},&H00FFFFFF,&H00000000,{back},0,0,0,0,100,100,0,0,3,{outline},{shadow},2,60,60,60,1
+Style: Default,Montserrat SemiBold,{fontsize},&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,{outline},{shadow},2,60,60,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
